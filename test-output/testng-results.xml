@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[running verify user id]]>
+    </line>
+    <line>
+      <![CDATA[logout the application]]>
+    </line>
+    <line>
+      <![CDATA[close the app]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-04T10:48:56 IST" name="Suite" finished-at="2022-09-04T10:49:05 IST" duration-ms="9429">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T10:48:56 IST" name="Test" finished-at="2022-09-04T10:49:05 IST" duration-ms="9429">
+      <class name="KiteTest.Test_class">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:KiteTest.Test_class@1e0b4072]" started-at="2022-09-04T10:48:56 IST" name="openBrowser" finished-at="2022-09-04T10:49:01 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:KiteTest.Test_class@1e0b4072]" started-at="2022-09-04T10:49:02 IST" name="loginToApp" finished-at="2022-09-04T10:49:04 IST" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyuserID()[pri:0, instance:KiteTest.Test_class@1e0b4072]" started-at="2022-09-04T10:49:04 IST" name="verifyuserID" finished-at="2022-09-04T10:49:05 IST" duration-ms="1623" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify user id]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyuserID -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:KiteTest.Test_class@1e0b4072]" started-at="2022-09-04T10:49:05 IST" name="logoutApp" finished-at="2022-09-04T10:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:KiteTest.Test_class@1e0b4072]" started-at="2022-09-04T10:49:05 IST" name="closeBrowser" finished-at="2022-09-04T10:49:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the app]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- KiteTest.Test_class -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

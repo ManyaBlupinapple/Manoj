@@ -66,4 +66,4 @@ public class Test_class extends BaseClass {
 			Reporter.log("close the app",true);
 		}
 
-}
+}   sysytem.out.println("nck");

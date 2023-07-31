@@ -1,0 +1,50 @@
+# Define a function to get weather information based on date
+def get_weather(date):
+    # Call the weather API here and retrieve the temperature for the given date
+    # Replace the following line with the actual API call
+    temperature = 25.0
+    return temperature
+
+# Define a function to get wind speed based on date
+def get_wind_speed(date):
+    # Call the weather API here and retrieve the wind speed for the given date
+    # Replace the following line with the actual API call
+    wind_speed = 10.0
+    return wind_speed
+
+# Define a function to get pressure based on date
+def get_pressure(date):
+    # Call the weather API here and retrieve the pressure for the given date
+    # Replace the following line with the actual API call
+    pressure = 1015.0
+    return pressure
+
+# Main program loop
+while True:
+    print("1. Get weather")
+    print("2. Get Wind Speed")
+    print("3. Get Pressure")
+    print("0. Exit")
+
+    option = input("Enter your choice: ")
+
+    if option == "1":
+        date = input("Enter the date: ")
+        temperature = get_weather(date)
+        print(f"Temperature on {date}: {temperature} degrees Celsius")
+
+    elif option == "2":
+        date = input("Enter the date: ")
+        wind_speed = get_wind_speed(date)
+        print(f"Wind Speed on {date}: {wind_speed} km/h")
+
+    elif option == "3":
+        date = input("Enter the date: ")
+        pressure = get_pressure(date)
+        print(f"Pressure on {date}: {pressure} hPa")
+
+    elif option == "0":
+        break
+
+    else:
+        print("Invalid option. Please try again.")
